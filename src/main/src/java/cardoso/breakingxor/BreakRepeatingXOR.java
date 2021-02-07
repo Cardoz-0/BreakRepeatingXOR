@@ -85,7 +85,7 @@ public class BreakRepeatingXOR {
         for (int i = 0; i < block_quantity; i++) {
 
             String binario = "";
-            for (int l = (i * 29); l < ((i + 1) * 29); l++) {
+            for (int l = (i * keysize); l < ((i + 1) * keysize); l++) {
                 if (byte_txt.length > l) {
                     binario += String.format("%8s", Integer.toBinaryString(byte_txt[l] & 0xFF)).replace(' ', '0');
 
