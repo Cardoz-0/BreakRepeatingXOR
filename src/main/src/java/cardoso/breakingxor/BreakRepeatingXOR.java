@@ -15,6 +15,9 @@ import java.util.Arrays;
 import java.util.Base64;
 import java.util.HashMap;
 
+
+//O codigo desse exercicio não ficou nem um pouco sofisticado, devido ao tempo limitado. A prioridade minha era que funcionasse
+
 public class BreakRepeatingXOR {
     public static void main(String [] args) {
         String entrada = UserInput.fileInput("INPUT-breaking_xor.txt");
@@ -143,6 +146,7 @@ public class BreakRepeatingXOR {
         System.out.println(ordem);
         System.out.println("Key:");
         System.out.println(key);
+        System.out.println("Source code: https://github.com/Cardoz-0/BreakRepeatingXOR");
     }
 
 
